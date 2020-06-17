@@ -4,7 +4,7 @@ import mysql.connector as mysql
 class Tree:
 
     db = mysql.connect(
-        host = "localhost",
+        host = "",
         user = "",
         passwd = "",
         database = "neutron"
